@@ -1,0 +1,19 @@
+# Virtual environments
+/.venv/
+/venv/
+
+# Uploaded files
+/uploads/
+
+# Secrets
+/.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Test cache
+.pytest_cache/
