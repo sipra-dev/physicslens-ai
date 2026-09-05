@@ -1,0 +1,72 @@
+[
+  {
+    "id": "equipotential_definition",
+    "document_name": "new.pdf",
+    "category": "conceptual",
+    "question": "From new.pdf, what is an equipotential surface?",
+    "reference_answer":  "An equipotential surface is a surface over which the electric potential is the same at every point. It may be the surface of a charged body or simply a surface in space; for example, the surface of a conductor is an equipotential surface."
+  },
+  {
+    "id": "equipotential_second_property",
+    "document_name": "new.pdf",
+    "category": "structural_reference",
+    "question": "From new.pdf, explain the second property of equipotential surfaces.",
+    "reference_answer": "The electric field and the lines of force are everywhere perpendicular to an equipotential surface. There is no potential gradient along a direction parallel to the surface, so there can be no electric-field component parallel to the surface."
+  },
+  {
+    "id": "equipotential_spacing",
+    "document_name": "new.pdf",
+    "category": "conceptual_reasoning",
+    "question": "From new.pdf, why are equipotential surfaces closer together where the electric field is stronger?",
+    "reference_answer": "The electric field is related to potential by E = -dV/dr. For the same change in potential dV, a stronger electric field corresponds to a smaller distance dr. Therefore, equipotential surfaces are closer together where the field is stronger."
+  },
+  {
+    "id": "equipotential_intersection",
+    "document_name": "new.pdf",
+    "category": "conceptual_reasoning",
+    "question": "From new.pdf, can two equipotential surfaces intersect? Explain.",
+    "reference_answer": "No. The electric field must be perpendicular to an equipotential surface. If two equipotential surfaces intersected, there would have to be two different directions of the electric field at the same point, which is impossible."
+  },
+  {
+    "id": "test1_question_12",
+    "document_name": "test1.pdf",
+    "category": "exact_question",
+    "question": "From test1.pdf, explain question 12.",
+    "reference_answer": "The work done in moving the 10 nC charge between two points on an equipotential surface is zero. Since the potentials at the two points are equal, VA = VB, and W = q(VA - VB) = 0."
+  },
+  {
+    "id": "test1_question_13",
+    "document_name": "test1.pdf",
+    "category": "exact_question",
+    "question": "From test1.pdf, why is the work done zero after a complete revolution in question 13?",
+    "reference_answer": "After one complete revolution the charge returns to its starting point. The initial and final potentials are therefore the same, so the potential difference is zero and the work done is zero. This remains true even when the other charge is not at the centre of the circle."
+  },
+  {
+    "id": "test1_question_16",
+    "document_name": "test1.pdf",
+    "category": "numerical",
+    "question": "From test1.pdf, solve question 16.",
+    "reference_answer": "All four charges are at the same distance from the centre of the circle. For the potential at the centre to be zero, their algebraic sum must be zero. Therefore 3 + 4 + 7 + q4 = 0, giving q4 = -14 microcoulomb."
+  },
+  {
+    "id": "test1_constant_potential",
+    "document_name": "test1.pdf",
+    "category": "conceptual",
+    "question": "From test1.pdf, if the electric potential is constant throughout a region, what can be said about the electric field?",
+    "reference_answer": "The electric field is zero in that region because the electric field is the negative potential gradient. If the potential is constant, its gradient is zero."
+  },
+  {
+    "id": "test2_question_19",
+    "document_name": "test2.pdf",
+    "category": "numerical",
+    "question": "From test2.pdf, solve question 19 step by step.",
+    "reference_answer": "For the three charges 1 C, 2 C and 3 C, the initial potential energy at separation 1 m is U = 9.0 x 10^9 times (2 + 6 + 3) = 9.9 x 10^10 J. When every separation becomes 0.5 m, the potential energy doubles to 1.98 x 10^11 J. The external work required is the increase in potential energy, W = Uf - Ui = 9.9 x 10^10 J."
+  },
+  {
+    "id": "test2_pair_energies",
+    "document_name": "test2.pdf",
+    "category": "partial_phrase",
+    "question": "Explain \"algebraic sum of energies of all pairs of charges\" from the test2.pdf document.",
+    "reference_answer": "The total electrostatic potential energy of a system is obtained by calculating the potential energy of every distinct pair of charges and adding those energies with their signs. For three charges, the distinct pairs are (1,2), (1,3) and (2,3). Repulsive like-charge pairs contribute positive energy and attractive opposite-charge pairs contribute negative energy."
+  }
+]

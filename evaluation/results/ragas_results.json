@@ -1,0 +1,291 @@
+[
+  {
+    "id": "equipotential_definition",
+    "category": "conceptual",
+    "document_name": "new.pdf",
+    "document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "question": "From new.pdf, what is an equipotential surface?",
+    "reference_answer": "An equipotential surface is a surface over which the electric potential is the same at every point. It may be the surface of a charged body or simply a surface in space; for example, the surface of a conductor is an equipotential surface.",
+    "response": "An equipotential surface is defined as a surface over which the electric potential is the same everywhere. This could be the surface of a charged body or just a surface in space. For example, the surface of a conductor is typically an equipotential surface.\n\nSteps:\n1. Equipotential surfaces ensure that no work is done when moving a charge along the surface, since the electric potential is constant.\n2. They are perpendicular to electric field lines. This is because moving along an equipotential surface does not involve work, which only happens when you move against the field.\n3. The electric potential V at a distance r from a point charge can be expressed as \\( V = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{q}{r} \\), where \\( q \\) is the charge and \\( \\varepsilon_0 \\) is the permittivity of free space.\n\nFormulae:\nV = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{q}{r}\nThis formula gives the electric potential at a distance r from a point charge q.\n\nDiagram explanation:\nIn a diagram, equipotential surfaces can be depicted as concentric circles around a charge. These circles show that at any point on a given circle, the potential is the same. Electric field lines, shown as radial lines from the charge, are perpendicular to these equipotential surfaces.\n\nCommon mistake:\nA common mistake is to think that work is done when moving along an equipotential surface. However, no work is done because the potential difference is zero.",
+    "retrieved_contexts": [
+      "Equipotential Surfaces\n6.\nAny surface over which the electric potential is same everywhere is called an equipotential surface. An equipotential surface may be the surface of a charged body or simply a surface in space. For\nexample, the surface of a conductor is an equipotential surface. Equipotential surfaces can be drawn through a space in which there is an electric field. As an example, let us consider the electric field of an isolated point-charge\nth\nThe potential at a distance r from the charge is\n\nV = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{q}{r} ."
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.3684210526315789,
+      "answer_relevancy": 0.8223991736376433,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.9999999975,
+      "answer_correctness": 0.4742928517136684
+    }
+  },
+  {
+    "id": "equipotential_second_property",
+    "category": "structural_reference",
+    "document_name": "new.pdf",
+    "document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "question": "From new.pdf, explain the second property of equipotential surfaces.",
+    "reference_answer": "The electric field and the lines of force are everywhere perpendicular to an equipotential surface. There is no potential gradient along a direction parallel to the surface, so there can be no electric-field component parallel to the surface.",
+    "response": "The second property of equipotential surfaces, as stated in the source document, is that the electric field and, hence, lines of force are perpendicular to the equipotential surface. This occurs because there is no potential gradient along any direction parallel to the surface. Therefore, no electric field exists parallel to the surface. In other words, the electric field \\( E \\) is always at right angles to equipotential surfaces, ensuring the component of \\( E \\) parallel to the surface is zero.\n\nSteps:\n1. Equipotential surfaces have constant electric potential across their surfaces, meaning no work is needed to move a charge across any points on such a surface.\n2. For a charge to feel no difference in potential, the electric field cannot have a component along the surface itself—it must be perpendicular.\n3. Thus, lines of force, which represent the direction of the electric field, must cross equipotential surfaces at right angles.",
+    "retrieved_contexts": [
+      "LINE OF FORCE\na family of planes perpendicular to the lines of force.\nThe important properties of equipotential surfaces are :\n(i) No work is done in moving a charge between any two points on an equipotential surface. This is so, because the potential difference between any two points on the surface is zero.\n(ü) The electric ffeld, and hence lines of force, are everywhere at right angles to the equipotential surface. This is so, because there is no potential gradient along any direction parallel to the surface and so no electric field parallel to the surface (E =-dI dr=0). This means that the electric field E,and hence the lines of force are always at right angles to the equipotential surface (only then the component of E parallel to the surftace would be zero).\n(Fig. 8)\nIn Fig. 8. the lines of force are radial and hence perpendicular to the equipotential surfaces. (iiü) In a family of equipotential surfaces, the surfaces are closer together where the electric ield is stronger and farther apart where the field is weaker.This follows from the relation E = -dV | dr. For the same potential-change dV, we have\ndr c\nthat is, the spacing between the equipotential surfaces will be less where E is strong and vice-yersa. ThuS equipotential surfaces can be used to give a general description of electric field in a certain region of spac (i}t ipotential surfaces can intersect each other.An equipotential surface is normal to U\nelectric field. If two equipotential surfaces intersect each other, then at the point of intersection there w\ntwo directions of electric field, which is impossible. Both, the lines of force and the equipotential surfaces can be used to depict electric field in space.\nadvantage of using equipotential surfaces over the lines of force is that they give a visual picture of botin,\nmagnitude and the direction of the electric field."
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.8784545893425876,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.5999999988,
+      "answer_correctness": 0.7158920656473331
+    }
+  },
+  {
+    "id": "equipotential_spacing",
+    "category": "conceptual_reasoning",
+    "document_name": "new.pdf",
+    "document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "question": "From new.pdf, why are equipotential surfaces closer together where the electric field is stronger?",
+    "reference_answer": "The electric field is related to potential by E = -dV/dr. For the same change in potential dV, a stronger electric field corresponds to a smaller distance dr. Therefore, equipotential surfaces are closer together where the field is stronger.",
+    "response": "Equipotential surfaces are closer together where the electric field is stronger because the electric field is related to the rate of change of potential with respect to distance (E = -dV/dr). In regions where the electric field is stronger, the potential changes more rapidly over a small distance. Therefore, the equipotential surfaces, which are surfaces of constant potential, need to be closer together to reflect this rapid change in potential.\n\nSteps:\n1. Equipotential surfaces are surfaces where the potential is constant.\n2. No work is done moving a charge between two points on an equipotential surface because the potential difference is zero.\n3. The electric field is always perpendicular to equipotential surfaces.\n4. The relationship E = -dV/dr indicates that a stronger electric field corresponds to a more rapid change in potential over distance, meaning closer equipotential surfaces.\n5. Thus, closer equipotential surfaces indicate a stronger electric field.\n\nFormulae:\nE = -\\frac{dV}{dr}\nThe electric field strength (E) is the negative gradient of the potential (V) with respect to distance (r).\n\nCommon mistake:\nAssuming equipotential surfaces can be parallel to electric field lines, but they are always perpendicular.",
+    "retrieved_contexts": [
+      "LINE OF FORCE\na family of planes perpendicular to the lines of force.\nThe important properties of equipotential surfaces are :\n(i) No work is done in moving a charge between any two points on an equipotential surface. This is so, because the potential difference between any two points on the surface is zero.\n(ü) The electric ffeld, and hence lines of force, are everywhere at right angles to the equipotential surface. This is so, because there is no potential gradient along any direction parallel to the surface and so no electric field parallel to the surface (E =-dI dr=0). This means that the electric field E,and hence the lines of force are always at right angles to the equipotential surface (only then the component of E parallel to the surftace would be zero).\n(Fig. 8)\nIn Fig. 8. the lines of force are radial and hence perpendicular to the equipotential surfaces. (iiü) In a family of equipotential surfaces, the surfaces are closer together where the electric ield is stronger and farther apart where the field is weaker.This follows from the relation E = -dV | dr. For the same potential-change dV, we have\ndr c\nthat is, the spacing between the equipotential surfaces will be less where E is strong and vice-yersa. ThuS equipotential surfaces can be used to give a general description of electric field in a certain region of spac (i}t ipotential surfaces can intersect each other.An equipotential surface is normal to U\nelectric field. If two equipotential surfaces intersect each other, then at the point of intersection there w\ntwo directions of electric field, which is impossible. Both, the lines of force and the equipotential surfaces can be used to depict electric field in space.\nadvantage of using equipotential surfaces over the lines of force is that they give a visual picture of botin,\nmagnitude and the direction of the electric field."
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.8571428571428571,
+      "answer_relevancy": 0.897380290335787,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.49999999875,
+      "answer_correctness": 0.5135773136350062
+    }
+  },
+  {
+    "id": "equipotential_intersection",
+    "category": "conceptual_reasoning",
+    "document_name": "new.pdf",
+    "document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "question": "From new.pdf, can two equipotential surfaces intersect? Explain.",
+    "reference_answer": "No. The electric field must be perpendicular to an equipotential surface. If two equipotential surfaces intersected, there would have to be two different directions of the electric field at the same point, which is impossible.",
+    "response": "No, two equipotential surfaces cannot intersect each other.\n\nSteps:\n1. Equipotential surfaces are surfaces where the electric potential is the same everywhere on the surface.\n2. If two equipotential surfaces were to intersect, it would mean that there would be two different potentials at their point of intersection, which is not possible.\n3. Moreover, the electric field, which is perpendicular to equipotential surfaces, would have two directions at the point of intersection, which violates the uniqueness of the field direction at a point.\n\nCommon mistake:\nSometimes, students confuse equipotential lines with contour lines in geography, thinking they might overlap or intersect, but this is not possible in electrostatics due to the definition of potential.",
+    "retrieved_contexts": [
+      "LINE OF FORCE\na family of planes perpendicular to the lines of force.\nThe important properties of equipotential surfaces are :\n(i) No work is done in moving a charge between any two points on an equipotential surface. This is so, because the potential difference between any two points on the surface is zero.\n(ü) The electric ffeld, and hence lines of force, are everywhere at right angles to the equipotential surface. This is so, because there is no potential gradient along any direction parallel to the surface and so no electric field parallel to the surface (E =-dI dr=0). This means that the electric field E,and hence the lines of force are always at right angles to the equipotential surface (only then the component of E parallel to the surftace would be zero).\n(Fig. 8)\nIn Fig. 8. the lines of force are radial and hence perpendicular to the equipotential surfaces. (iiü) In a family of equipotential surfaces, the surfaces are closer together where the electric ield is stronger and farther apart where the field is weaker.This follows from the relation E = -dV | dr. For the same potential-change dV, we have\ndr c\nthat is, the spacing between the equipotential surfaces will be less where E is strong and vice-yersa. ThuS equipotential surfaces can be used to give a general description of electric field in a certain region of spac (i}t ipotential surfaces can intersect each other.An equipotential surface is normal to U\nelectric field. If two equipotential surfaces intersect each other, then at the point of intersection there w\ntwo directions of electric field, which is impossible. Both, the lines of force and the equipotential surfaces can be used to depict electric field in space.\nadvantage of using equipotential surfaces over the lines of force is that they give a visual picture of botin,\nmagnitude and the direction of the electric field."
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "0b2dc96e7e274c4184c4e79b6760755c",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.846539115611931,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.4999999975,
+      "answer_correctness": 0.641905548920404
+    }
+  },
+  {
+    "id": "test1_question_12",
+    "category": "exact_question",
+    "document_name": "test1.pdf",
+    "document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "question": "From test1.pdf, explain question 12.",
+    "reference_answer": "The work done in moving the 10 nC charge between two points on an equipotential surface is zero. Since the potentials at the two points are equal, VA = VB, and W = q(VA - VB) = 0.",
+    "response": "The work done in moving a charge of 10 nC between two points on an equipotential surface is zero.\n\nProblem statement:\nWhat is the work done in moving a charge of 10 nC between two points on an equipotential surface?\n\nSteps:\n1. When a charge moves on an equipotential surface, the electric potential at every point on that surface is the same.\n2. Therefore, the potential difference \\((V_A - V_B)\\) between any two points A and B on the equipotential surface is zero.\n3. According to the formula for work done in an electric field \\(W = q (V_A - V_B)\\), since \\(V_A = V_B\\), the work done \\(W\\) is zero since \\((V_A - V_B) = 0\\).\n\nFormulae:\nW = q (V_A - V_B)\nWork done moving charge q from point A to point B, where \\(V_A\\) and \\(V_B\\) are the potentials at A and B.\n\nW = 0\nWork done is zero because the potential difference is zero.\n\nCommon mistake:\nA common mistake is thinking that work done can be non-zero due to the charge moving. However, on an equipotential surface, since there's no potential difference, the work done is always zero.\n\nFinal result:\nThe work done is zero.",
+    "retrieved_contexts": [
+      "(ISC 2006)\n10. What is the otential energy of a dipole of noment p when it is perpendicular to a uniform clectric field\nAns, Hpl 0 cos 0), 0) pE. () 2p, 0ii) 0.\nI. State how the following quantities depend uponr:() electric field and potential due to a point-chare\n(n) potenthal at a distance r from the centre of a charged metallic sphere (r <radius of the sphere).\nAns. () Flectric field 1/. polential I lr. (i) potential will not depend upon r.\n12. What is the work done in moving a charge of 10 nC between two points on an equipotential surface?\nAns. Zero. The work done in noving a charge q from a point A to a point B in an electric field ie\n12. What is the work done in moving a charge of 10 nC between two points...\nAns. Zero. The work done in moving a charge q from a point A to a point B in an electric field is W = q (V_A - V_B) where V_A and V_B are potentials at A and B respectively. For an equipotential surface,\nV_A = V_B and so W = 0.\n\n13. A point-charge Q is revolved in a circle of radius R around another point-charge q. What will be the work done in a complete revolution? What if the charge q is not at the centre of the circle?\nAns. The work done is zero in both cases. We know, W = Q(V_A - V_B), where V_A and V_B are potentials due to the charge q at points A and B on the circle. As the charge Q returns to the same point after completing a revolution, V_A = V_B, and so W = 0.\nWhen q is at the centre of the circle, then the potential is same at all points on the circle and so W = 0 even for an incomplete revolution.\n13. A point-charge Qis revolved in a circle of radius R around another point-charge q. What will be the\nwork donc in a complete revolution? What if the charge g is not at the centre of the circle?\ndue to the charge q at points A and B on the circle. As the charge returns to the same point after\nWhen g is at the centre of the circle, then the potential is same at all points on the circle and so\n14. What is the work done by the electric field of a nucleus in a 'complete' circular orbit of the electron\naround it? What if the orbit be elliptical?\nAns. The work done is zero irrespective of whether the orbit of the electron is circular or elliptical.\n15. At cach of the corners of an equilateral triangle of side a metre is placed a point-charge + q coulomb.\nWhat will be the electrostatic potential at the centroid of the triangle?"
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.9166666666666666,
+      "answer_relevancy": 0.24199251860360835,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.16666666638888888,
+      "answer_correctness": 0.5083744510289738
+    }
+  },
+  {
+    "id": "test1_question_13",
+    "category": "exact_question",
+    "document_name": "test1.pdf",
+    "document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "question": "From test1.pdf, why is the work done zero after a complete revolution in question 13?",
+    "reference_answer": "After one complete revolution the charge returns to its starting point. The initial and final potentials are therefore the same, so the potential difference is zero and the work done is zero. This remains true even when the other charge is not at the centre of the circle.",
+    "response": "The work done is zero after a complete revolution because the potential energy at the starting point is equal to the potential energy at the ending point after a complete loop. Since work done (W) is defined as the change in potential energy, and there is no change in potential energy (since the points are the same, so V_A = V_B), the work done is zero. This holds true whether the charge is at the center of the circle or not.\n\nSteps:\n1. For a point charge Q revolved in a circle around another charge q, the potential energy at any point is determined by the electric potential due to charge q at that point.\n2. The work done in moving charge Q from one point to another is given by W = Q(V_A - V_B), where V_A and V_B are the potentials at points A and B, respectively.\n3. In a complete revolution, the charge Q returns to the same point, meaning V_A = V_B.\n4. Since V_A = V_B, the expression for work done becomes W = Q(0) = 0, indicating no work is done.\n5. This is true even if charge q is not at the center, because V_A is still equal to V_B when revolution completes.\n\nFormulae:\nW = Q(V_A - V_B)\nWork done (W) is equal to the charge (Q) multiplied by the difference in potential (V_A - V_B) between two points.\n\nCommon mistake:\nAssuming that work is done because a force may be acting. However, if there is no displacement between the initial and final potential energy levels (as in a complete loop), the work done can still be zero even if force is involved.\n\nFinal result:\nThe work done in a complete revolution is zero.",
+    "retrieved_contexts": [
+      "(ISC 2006)\n10. What is the otential energy of a dipole of noment p when it is perpendicular to a uniform clectric field\nAns, Hpl 0 cos 0), 0) pE. () 2p, 0ii) 0.\nI. State how the following quantities depend uponr:() electric field and potential due to a point-chare\n(n) potenthal at a distance r from the centre of a charged metallic sphere (r <radius of the sphere).\nAns. () Flectric field 1/. polential I lr. (i) potential will not depend upon r.\n12. What is the work done in moving a charge of 10 nC between two points on an equipotential surface?\nAns. Zero. The work done in noving a charge q from a point A to a point B in an electric field ie\n12. What is the work done in moving a charge of 10 nC between two points...\nAns. Zero. The work done in moving a charge q from a point A to a point B in an electric field is W = q (V_A - V_B) where V_A and V_B are potentials at A and B respectively. For an equipotential surface,\nV_A = V_B and so W = 0.\n\n13. A point-charge Q is revolved in a circle of radius R around another point-charge q. What will be the work done in a complete revolution? What if the charge q is not at the centre of the circle?\nAns. The work done is zero in both cases. We know, W = Q(V_A - V_B), where V_A and V_B are potentials due to the charge q at points A and B on the circle. As the charge Q returns to the same point after completing a revolution, V_A = V_B, and so W = 0.\nWhen q is at the centre of the circle, then the potential is same at all points on the circle and so W = 0 even for an incomplete revolution.\n13. A point-charge Qis revolved in a circle of radius R around another point-charge q. What will be the\nwork donc in a complete revolution? What if the charge g is not at the centre of the circle?\ndue to the charge q at points A and B on the circle. As the charge returns to the same point after\nWhen g is at the centre of the circle, then the potential is same at all points on the circle and so\n14. What is the work done by the electric field of a nucleus in a 'complete' circular orbit of the electron\naround it? What if the orbit be elliptical?\nAns. The work done is zero irrespective of whether the orbit of the electron is circular or elliptical.\n15. At cach of the corners of an equilateral triangle of side a metre is placed a point-charge + q coulomb.\nWhat will be the electrostatic potential at the centroid of the triangle?"
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.7902036553974727,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.249999999375,
+      "answer_correctness": 0.5100325380055142
+    }
+  },
+  {
+    "id": "test1_question_16",
+    "category": "numerical",
+    "document_name": "test1.pdf",
+    "document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "question": "From test1.pdf, solve question 16.",
+    "reference_answer": "All four charges are at the same distance from the centre of the circle. For the potential at the centre to be zero, their algebraic sum must be zero. Therefore 3 + 4 + 7 + q4 = 0, giving q4 = -14 microcoulomb.",
+    "response": "The visual evidence is not clear enough for me to verify the diagram reliably. Please upload a clearer or closer crop.",
+    "retrieved_contexts": [
+      "1 3 N39\nvolt. (The distance of the centroid from each corner of the triangle is a 3.)\nAns. \\( V = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{3 \\sqrt{3} \\, q}{a} \\) volt. (The distance of the centroid from each corner of the triang... 16. Three charges \\( q_1 = 3 \\, \\mu C, \\ q_2 = 4 \\, \\mu C \\text{ and } q_3 = 7 \\, \\mu C \\) are placed on the circumference of a circle of radius \\( 1.0 \\, m \\), as shown. What is the value of charge \\( q_4 \\) placed on the same circle, if the potential at the centre, \\( V_o = 0 \\)? \\text{(ISC 2003)} \\\nAns. \\(-14 \\, \\mu C.\\)\n4 T i0\nof a circle of radius 1.0 m, as shown. What is the value of charge q4 placed on the\nAns. -14 pC.\n17. Ata point P situated at a certain distance from a point-charge + q, the electric field is E and the electric\npotential is V. () If another charge + q be placed at the same distance on the other side of P, then what will be the resultant field and potential at the point P? (ii) Ifthe new charge be- q, then?\nAns. (i) Zero, 2V; (ii) 2E, Zero.\n18. 1f the electric potential V is constant throughout a given region of space, what can you say abOut electric field E in that region?\nAns. E is Zero in that region (E=-dVl dr).\n19. What will be the nature of electric potential at a place where the electric field is zero? Ans. Potential will be constant."
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": true,
+    "cache_hit": false,
+    "active_document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "terminal_action": "ASK_FOR_CLEARER_IMAGE",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.33333333277777777,
+      "answer_correctness": 0.04788293850960157
+    }
+  },
+  {
+    "id": "test1_constant_potential",
+    "category": "conceptual",
+    "document_name": "test1.pdf",
+    "document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "question": "From test1.pdf, if the electric potential is constant throughout a region, what can be said about the electric field?",
+    "reference_answer": "The electric field is zero in that region because the electric field is the negative potential gradient. If the potential is constant, its gradient is zero.",
+    "response": "If the electric potential \\( V \\) is constant throughout a given region of space, the electric field \\( E \\) in that region is zero. This is because the electric field is related to the gradient (or change) of the electric potential by the equation \\( E = -\\frac{dV}{dr} \\). If \\( V \\) is constant, \\( dV/dr = 0 \\), meaning \\( E = 0 \\).\n\nFormulae:\nE = -\\frac{dV}{dr}\nThe electric field \\( E \\) is the negative gradient of the electric potential \\( V \\).\n\nFinal result:\nThe electric field is zero when the electric potential is constant.",
+    "retrieved_contexts": [
+      "1 3 N39\nvolt. (The distance of the centroid from each corner of the triangle is a 3.)\nAns. \\( V = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{3 \\sqrt{3} \\, q}{a} \\) volt. (The distance of the centroid from each corner of the triang... 16. Three charges \\( q_1 = 3 \\, \\mu C, \\ q_2 = 4 \\, \\mu C \\text{ and } q_3 = 7 \\, \\mu C \\) are placed on the circumference of a circle of radius \\( 1.0 \\, m \\), as shown. What is the value of charge \\( q_4 \\) placed on the same circle, if the potential at the centre, \\( V_o = 0 \\)? \\text{(ISC 2003)} \\\nAns. \\(-14 \\, \\mu C.\\)\n4 T i0\nof a circle of radius 1.0 m, as shown. What is the value of charge q4 placed on the\nAns. -14 pC.\n17. Ata point P situated at a certain distance from a point-charge + q, the electric field is E and the electric\npotential is V. () If another charge + q be placed at the same distance on the other side of P, then what will be the resultant field and potential at the point P? (ii) Ifthe new charge be- q, then?\nAns. (i) Zero, 2V; (ii) 2E, Zero.\n18. 1f the electric potential V is constant throughout a given region of space, what can you say abOut electric field E in that region?\nAns. E is Zero in that region (E=-dVl dr).\n19. What will be the nature of electric potential at a place where the electric field is zero? Ans. Potential will be constant."
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "e671a88170da4511b71f7510b85cb5f3",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7808670582306475,
+      "llm_context_precision_with_reference": 0.9999999999,
+      "context_recall": 1.0,
+      "context_entity_recall": 0.4999999975,
+      "answer_correctness": 0.900355798466398
+    }
+  },
+  {
+    "id": "test2_question_19",
+    "category": "numerical",
+    "document_name": "test2.pdf",
+    "document_id": "45b2fb13723f4807b5b594dec8728098",
+    "question": "From test2.pdf, solve question 19 step by step.",
+    "reference_answer": "For the three charges 1 C, 2 C and 3 C, the initial potential energy at separation 1 m is U = 9.0 x 10^9 times (2 + 6 + 3) = 9.9 x 10^10 J. When every separation becomes 0.5 m, the potential energy doubles to 1.98 x 10^11 J. The external work required is the increase in potential energy, W = Uf - Ui = 9.9 x 10^10 J.",
+    "response": "This assistant currently supports school-level Physics for Classes 1–12. Please upload a Physics page or ask a school-level Physics question.",
+    "retrieved_contexts": [],
+    "context_source": "graph_state_empty",
+    "retrieval_evidence_found": false,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "45b2fb13723f4807b5b594dec8728098",
+    "terminal_action": "REJECT_OUT_OF_SCOPE",
+    "selected_model": null,
+    "retrieval_rounds": 0,
+    "generation_attempts": 0,
+    "scores": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.21693609824837157,
+      "llm_context_precision_with_reference": 0.0,
+      "context_recall": 0.0,
+      "context_entity_recall": 0.0,
+      "answer_correctness": 0.06668360723301686
+    }
+  },
+  {
+    "id": "test2_pair_energies",
+    "category": "partial_phrase",
+    "document_name": "test2.pdf",
+    "document_id": "45b2fb13723f4807b5b594dec8728098",
+    "question": "Explain \"algebraic sum of energies of all pairs of charges\" from the test2.pdf document.",
+    "reference_answer": "The total electrostatic potential energy of a system is obtained by calculating the potential energy of every distinct pair of charges and adding those energies with their signs. For three charges, the distinct pairs are (1,2), (1,3) and (2,3). Repulsive like-charge pairs contribute positive energy and attractive opposite-charge pairs contribute negative energy.",
+    "response": "The phrase \"algebraic sum of energies of all pairs of charges\" refers to the total electrostatic potential energy of a system composed of multiple charges. It is calculated by adding up the potential energies of every possible pair of charges in the system.\n\nSteps:\n1. Consider each pair of charges in the system. For each pair, calculate the potential energy using the formula: \\( U = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{q_1 q_2}{r_{12}} \\).\n2. Here, \\( q_1 \\) and \\( q_2 \\) are the magnitudes of the charges, \\( r_{12} \\) is the distance between them, and \\( \\frac{1}{4 \\pi \\varepsilon_0} \\) is a constant that depends on the medium.\n3. Sum the potential energies of all pairs.\n4. The result gives you the total electrostatic potential energy of the system.\n\nFormulae:\nU = \\frac{1}{4 \\pi \\varepsilon_0} \\left( \\frac{q_1 q_2}{r_{12}} \\right)\nThe potential energy between two point charges, where \\( q_1 \\) and \\( q_2 \\) are the charges and \\( r_{12} \\) is the distance between them.\n\nCommon mistake:\nA common mistake is forgetting to consider all possible pairs of charges or neglecting the sign of the charges, which can affect whether the potential energy is positive or negative.",
+    "retrieved_contexts": [
+      "R13/\nground state of a H;, the two protons are separated by\nroughly 1.5 A and the electron is roughly 1.0 Ả from each\nPROTONe\nPROTON =+e\nproton. Estimate the potential energy of the system.\nSolution. The total electrostatic potential energy of the\nsystem of charges is the algebraic sum of energies of all pairs of charges. Thus,\nU = \\frac{1}{4 \\pi \\varepsilon_0} \\left( \\frac{q_1 q_2}{r_{12}} \\right)",
+      "4 T E0\nr13\nr23\nassuming potential energy to be zero at infinity.\nC (one electron),\nHere, \\( q_1 = q_2 = + e = + 1.6 \\times 10^{-19} \\) C (two protons), \\( q_3 = - e = - 1.6 \\times 10^{-19} \\) C (one\\)\n\\( r_{12} = 1.5 \\, \\text{Å} = 1.5 \\times 10^{-10} \\) m, \\( r_{13} = r_{23} = 1.0 \\, \\text{Å} = 1.0 \\times 10^{-10} \\) m and \\( 1/4 \\, \\pi \\, \\varepsilon_0 = 9.0 \\times 10^9 \\) N\\cdot m\\(^2\\)\nN-m c\nSubstituting these values in Eq. (i), we get\n(1.6 x 10 9\n(-1.6x 10)(1.6x 1019\n(1.6 x 10)(-1.6x 10)\nU = (9.0 \\times 10^9) \\left[ \\frac{1.6 \\times 10^{-19}}{1.5 \\times 10^{-11}} \\right]\n= -30.7 \\times 10^{-19} \\text{ J.}\n1.5 x 1010\n1.0 × 10-10\n1.0 x 10-10"
+    ],
+    "context_source": "graph_state",
+    "retrieval_evidence_found": true,
+    "insufficient_evidence": false,
+    "cache_hit": false,
+    "active_document_id": "45b2fb13723f4807b5b594dec8728098",
+    "terminal_action": "PASS",
+    "selected_model": null,
+    "retrieval_rounds": 1,
+    "generation_attempts": 1,
+    "scores": {
+      "faithfulness": 0.7333333333333333,
+      "answer_relevancy": 0.8078351146779742,
+      "llm_context_precision_with_reference": 0.99999999995,
+      "context_recall": 0.3333333333333333,
+      "context_entity_recall": 0.14285714265306124,
+      "answer_correctness": 0.5201448412898463
+    }
+  }
+]

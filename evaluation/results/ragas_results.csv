@@ -1,0 +1,11 @@
+id,category,document_name,context_source,retrieval_evidence_found,insufficient_evidence,cache_hit,faithfulness,answer_relevancy,llm_context_precision_with_reference,context_recall,context_entity_recall,answer_correctness
+equipotential_definition,conceptual,new.pdf,graph_state,True,False,False,0.3684210526315789,0.8223991736376433,0.9999999999,1.0,0.9999999975,0.4742928517136684
+equipotential_second_property,structural_reference,new.pdf,graph_state,True,False,False,0.8333333333333334,0.8784545893425876,0.9999999999,1.0,0.5999999988,0.7158920656473331
+equipotential_spacing,conceptual_reasoning,new.pdf,graph_state,True,False,False,0.8571428571428571,0.897380290335787,0.9999999999,1.0,0.49999999875,0.5135773136350062
+equipotential_intersection,conceptual_reasoning,new.pdf,graph_state,True,False,False,0.6,0.846539115611931,0.9999999999,1.0,0.4999999975,0.641905548920404
+test1_question_12,exact_question,test1.pdf,graph_state,True,False,False,0.9166666666666666,0.24199251860360835,0.9999999999,1.0,0.16666666638888888,0.5083744510289738
+test1_question_13,exact_question,test1.pdf,graph_state,True,False,False,0.8,0.7902036553974727,0.9999999999,1.0,0.249999999375,0.5100325380055142
+test1_question_16,numerical,test1.pdf,graph_state,True,True,False,0.0,0.0,0.9999999999,1.0,0.33333333277777777,0.04788293850960157
+test1_constant_potential,conceptual,test1.pdf,graph_state,True,False,False,1.0,0.7808670582306475,0.9999999999,1.0,0.4999999975,0.900355798466398
+test2_question_19,numerical,test2.pdf,graph_state_empty,False,False,False,0.0,0.21693609824837157,0.0,0.0,0.0,0.06668360723301686
+test2_pair_energies,partial_phrase,test2.pdf,graph_state,True,False,False,0.7333333333333333,0.8078351146779742,0.99999999995,0.3333333333333333,0.14285714265306124,0.5201448412898463

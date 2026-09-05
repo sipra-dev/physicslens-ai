@@ -1,0 +1,41 @@
+{
+  "sample_count": 10,
+  "evaluator_model": "gpt-4o",
+  "retrieval": {
+    "total_samples": 10,
+    "retrieval_success_count": 9,
+    "retrieval_failure_count": 1,
+    "retrieval_success_rate": 0.9,
+    "insufficient_evidence_count": 1,
+    "failed_sample_ids": [
+      "test2_question_19"
+    ],
+    "insufficient_evidence_sample_ids": [
+      "test1_question_16"
+    ]
+  },
+  "metric_averages": {
+    "faithfulness": 0.6108897243107769,
+    "answer_relevancy": 0.6282607614086023,
+    "llm_context_precision_with_reference": 0.8999999999149999,
+    "context_recall": 0.8333333333333334,
+    "context_entity_recall": 0.3992857131244728,
+    "answer_correctness": 0.4899141954449763
+  },
+  "metric_valid_counts": {
+    "faithfulness": 10,
+    "answer_relevancy": 10,
+    "llm_context_precision_with_reference": 10,
+    "context_recall": 10,
+    "context_entity_recall": 10,
+    "answer_correctness": 10
+  },
+  "metric_missing_counts": {
+    "faithfulness": 0,
+    "answer_relevancy": 0,
+    "llm_context_precision_with_reference": 0,
+    "context_recall": 0,
+    "context_entity_recall": 0,
+    "answer_correctness": 0
+  }
+}

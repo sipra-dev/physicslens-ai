@@ -1,0 +1,32 @@
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Git / editor metadata
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Runtime-generated PhyMentor data
+/uploads/
+/storage/
+
+# Local logs / temporary files
+*.log
+*.tmp
+
+# Local project-tree/debug files
+project_tree.txt

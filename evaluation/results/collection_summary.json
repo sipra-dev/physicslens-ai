@@ -1,0 +1,13 @@
+{
+  "total_samples": 10,
+  "retrieval_success_count": 9,
+  "retrieval_failure_count": 1,
+  "retrieval_success_rate": 0.9,
+  "insufficient_evidence_count": 1,
+  "failed_sample_ids": [
+    "test2_question_19"
+  ],
+  "insufficient_evidence_sample_ids": [
+    "test1_question_16"
+  ]
+}

@@ -17,3 +17,51 @@ __pycache__/
 
 # Test cache
 .pytest_cache/
+
+# Environment variables
+.env
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local uploads and generated artifacts
+uploads/
+data/
+
+# Local databases and indexes
+*.db
+*.sqlite
+*.sqlite3
+faiss_indexes/
+bm25_indexes/
+
+# Local logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+storage/vector_store/
+storage/bm25_store/
+# Local project tree/debug snapshots
+project_tree.txt
+project_tree1.txt
+project_structure.txt

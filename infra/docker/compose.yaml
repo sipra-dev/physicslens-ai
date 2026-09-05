@@ -1,0 +1,84 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: phymentor
+      POSTGRES_USER: phymentor
+      POSTGRES_PASSWORD: phymentor-local
+    volumes:
+      - phymentor_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U phymentor -d phymentor"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - phymentor_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    image: phymentor-ai:local
+    build:
+      context: ../..
+      dockerfile: infra/docker/Dockerfile
+    env_file:
+      - ../../.env
+    environment:
+      DATABASE_URL: postgresql://phymentor:phymentor-local@postgres:5432/phymentor
+      REDIS_URL: redis://redis:6379/0
+      UPLOAD_DIR: /app/uploads
+      VECTOR_STORE_DIR: /app/storage/vector_store
+      BM25_STORE_DIR: /app/storage/bm25_store
+      TESSERACT_COMMAND: /usr/bin/tesseract
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../../uploads:/app/uploads
+      - ../../storage:/app/storage
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 60s
+
+  frontend:
+    image: phymentor-ai:local
+    command:
+      [
+        "streamlit",
+        "run",
+        "apps/frontend/app.py",
+        "--server.address=0.0.0.0",
+        "--server.port=8501"
+      ]
+    environment:
+      PHYMENTOR_API_BASE_URL: http://api:8000/v1
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+volumes:
+  phymentor_postgres_data:
+  phymentor_redis_data:
